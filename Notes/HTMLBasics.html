@@ -1,0 +1,77 @@
+<!-- Typical html page layout -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to css file -->
+  <link rel="stylesheet" href="">
+  <title>HTML Basics</title>
+</head>
+
+<body>
+  <!-- div tags are used to divide sections of code -->
+  <div id="div1">
+    <!-- h# tags are used for headings, can be from h1-h6 (h1 being biggest) -->
+    <h1>Heading</h1>
+
+    <!-- p tag stores text; id(unique per element) and class tags(can have multiple of same name) are used to identify specific elements; em tag italicizes text-->
+    <p id="p1" class="some-class"><em>some text</em></p>
+    <!-- strong tag bolds text; span tag divides section of text-->
+    <p id="p2"><span id="span1"><strong>more text</strong></span></p>
+
+    <!-- img tag displays an image; alt is a caption for image when hovering over; width is image size -->
+    <img src="https://www.curriculumvisions.com/search/M/mandir/mandir-shutterstock_21513679.jpg" alt="Mandir"
+      width="300">
+
+    <!-- a tag is used to embed links; figure allows image captions; figcaption is where caption goes -->
+    <figure>
+      <a href="www.google.com">Go To Google</a>
+      <figcaption>This is a caption</figcaption>
+    </figure>
+
+    <!-- video allows videos to be embeded to page; controls allows for control of video -->
+    <video src="https://www.youtube.com/watch?v=DPnqb74Smug&list=WL&index=4&ab_channel=freeCodeCamp.org" controls
+      autoplay muted loop></video>
+
+    <!-- input tags are used to create different form elements-->
+    <!-- text type is used to enter text; name attribute is used to refer to data entered  -->
+    <input type="text" name="input1" id="input1">
+    <!-- button is used to do stuff when pressed; placeholder adds text to button -->
+    <input type="button" name="button1" id="button1" placeholder="Press Me">
+    <button id="single-button">This also works!</button>
+
+    <!-- lists are used to organize text in ordered(numbered) or unordered(bullets) lists; li is list items -->
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+    </ul>
+    <ol>
+      <li>item1</li>
+      <li>item2</li>
+    </ol>
+  </div>
+
+  <!-- tables are used to represent text in table form; thead is header row; tbody is table body; tr is a row; th is a heading; colspan is how much space each column takes up -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">Heading1</th>
+        <th>Heading2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>item1</td>
+        <td>item</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Link to js file -->
+  <script src=""></script>
+</body>
+
+</html>
